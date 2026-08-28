@@ -1,0 +1,17 @@
+{
+	"name": "ProductSalesAnalysisDF",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SQL_Server_ADF_IR",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "ProductSalesAnalysis"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

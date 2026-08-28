@@ -1,0 +1,6 @@
+{
+	"name": "self-hosted-ir-adf-ir",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

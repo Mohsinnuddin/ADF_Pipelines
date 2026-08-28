@@ -1,0 +1,17 @@
+{
+	"name": "Production_Product",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AdventureWorks2025",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "Production",
+			"table": "Product"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

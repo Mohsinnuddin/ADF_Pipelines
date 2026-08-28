@@ -1,0 +1,15 @@
+{
+	"name": "MohsinADFactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8ddae8de-1cae-422c-b946-df7b4842713d",
+		"tenantId": "8bc1a639-89ce-4ca6-8b02-d74e1692552f"
+	}
+}
