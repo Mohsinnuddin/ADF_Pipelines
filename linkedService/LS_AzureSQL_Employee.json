@@ -1,0 +1,17 @@
+{
+	"name": "LS_AzureSQL_Employee",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "proserverdb.database.windows.net",
+			"database": "prodb",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "aman",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEZGNUQxQUJELTU3NkMtNEFFOS04NUFELUVCMkUyRTM2MTE4NF82ODA5YmFjYy00YzE5LTQ4OGQtOTA5ZS1iYjc0OWE5OWE5ZWIiDQp9"
+		}
+	}
+}
