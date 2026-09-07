@@ -1,0 +1,19 @@
+{
+	"name": "MetadataDrivenCopyTask_92a_ControlDS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AdventureWorks2025",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "MetadataDrivenCopyTask_92a_20260907"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "MainControlTable_92a"
+		}
+	}
+}
